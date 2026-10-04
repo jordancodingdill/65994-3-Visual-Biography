@@ -84,8 +84,98 @@ Rather than showing this change at a single scale, the following three maps move
 
 *Pulling outward reveals the much larger geographic extent contained within the same year.*
 
-![Northern recorded movement of 65994-3 during 2014](microhawk_latertranstion.png)
-
+![Northern recorded movement of 65994-3 during 2014](microhawk_latetranstion.png)
+---
 *Returning to a local scale reveals concentrated recorded movement farther north. This geographic frame will appear again later in the biography.*
 
 **Research context:** McCrary, M.D., Bloom, P.H., Porter, K.K. & Sernka, K.J. (2019), *Facultative Migration: New Insight from a Raptor*, Journal of Raptor Research 53(1):84–90.
+## The Final Fixes
+### 2015–2017
+
+The final years of 65994-3's telemetry record continued to alternate between dramatically different geographic scales.
+
+McCrary et al. (2019) documented continued changes in her movement strategy during these years: 65994-3 migrated in 2015, remained resident in 2016, and migrated again in 2017. The maps below follow these final recorded years from localized movement in southern California, outward across the western United States, and finally back to a landscape seen earlier in her biography.
+
+The title **"The Final Fixes"** refers to the final GPS fixes available in 65994-3's telemetry record. She was not recovered, and the reference data state that transmissions ceased. The available tracking record therefore does not establish what happened to her afterward.
+![Localized recorded movement of 65994-3 during 2015–2017](microhawk_finalfirst.png)
+
+*At a local scale in southern California, the telemetry record shows a dense concentration of recorded movement.*
+
+![Closer view of recorded movement of 65994-3 during 2015–2017](microhawk_finalsecond.png)
+
+*Moving closer reveals another tightly concentrated pattern of recorded movement within the area shown above.*
+
+![Long-distance recorded movement of 65994-3 during 2015–2017](supermacrohawk_finalthird.png)
+
+*Pulling outward transforms the view. The localized movements above formed only one part of a much larger recorded geography extending across the western United States.*
+
+![Northern recorded movement of 65994-3 during 2015–2017](micro_finalfourth.png)
+
+*The biography returns to the same geographic frame and scale shown during the 2014 Transition, allowing the recorded use of this landscape during the two periods to be compared directly.*
+
+**Research context:** McCrary, M.D., Bloom, P.H., Porter, K.K. & Sernka, K.J. (2019), *Facultative Migration: New Insight from a Raptor*, Journal of Raptor Research 53(1):84–90.
+
+---
+
+## Methods & Workflow
+
+Telemetry data were obtained from the Movebank study **Red-tailed hawks in North America (Bloom)**. The dataset was filtered to individual **65994b**, identified in the accompanying reference data as female **65994-3**.
+
+The telemetry records were processed chronologically and prepared for visualization in QGIS. Recorded GPS locations were connected in timestamp order to reconstruct movement paths through the tracking record. These lines are visual connections between consecutive GPS fixes and should not be interpreted as continuously recorded flight trajectories.
+
+The resulting movement record was explored at multiple spatial scales. Rather than applying a single map extent throughout the project, each map was framed according to the geographic scale of the movement being shown. This allows localized periods and long-distance movements to remain visually legible while preserving their position within the larger biography.
+
+The four chronological periods used throughout the project—**First Journeys**, **A Smaller World**, **The Transition**, and **The Final Fixes**—were created as a cartographic storytelling framework. Biological interpretations of migration, residency, pair formation, and changes in migratory behavior are drawn from the published research of Bloom and colleagues rather than inferred from the mapped telemetry alone.
+
+### Tools & Technologies
+
+- **QGIS** — spatial visualization, movement-path construction, symbology, map layout, scale management, and cartographic design
+- **Python** — telemetry filtering, chronological preparation, and creation of the individual biography dataset
+- **Movebank** — source of GPS telemetry and individual reference data
+- **Photopea** — supporting image and visual asset preparation
+- **GitHub** — project documentation and publication
+
+---
+
+## Data & Research Sources
+
+### Telemetry Data
+
+**Movebank — Red-tailed hawks in North America (Bloom)**  
+Species: *Buteo jamaicensis*  
+Study period: 2007–2017  
+Individual visualized in this project: **65994b / 65994-3**
+
+The telemetry and reference data remain the work of their original researchers and data owners. This project uses those data for independent GIS visualization and educational portfolio work.
+
+### Published Research
+
+Bloom, P. H., McCrary, M. D., Scott, J. M., Papp, J. M., Sernka, K. J., Thomas, S. E., Kidd, J. W., Henckel, E. H., Henckel, J. L., & Gibson, M. J. (2015). **Northward Summer Migration of Red-Tailed Hawks Fledged from Southern Latitudes.** *Journal of Raptor Research, 49*(1), 1–17.  
+https://doi.org/10.3356/JRR-14-54.1
+
+McCrary, M. D., Bloom, P. H., Porter, S., & Sernka, K. J. (2019). **Facultative Migration: New Insight from a Raptor.** *Journal of Raptor Research, 53*(1), 84–90.  
+https://doi.org/10.3356/JRR-18-27
+
+### Data Platform
+
+Movebank. **Red-tailed hawks in North America (Bloom).**  
+https://www.movebank.org/
+
+---
+
+## Map & Image Credits
+
+**Basemap:** [Esri Topo Light Grey / Esri and contributors]
+
+**Red-tailed hawk photograph:** [placeholder]
+
+
+The red-tailed hawk photograph used in this project is representative of the species and **does not depict 65994-3**.
+
+---
+
+## About This Project
+
+This project is part of a GIS portfolio exploring how spatial data can be used to communicate ecological and evolutionary research through cartographic storytelling.
+
+The goal is not to reinterpret the biological research conducted on 65994-3, but to make one individual animal's nearly decade-long telemetry record visually accessible: translating thousands of recorded locations into a geographic story that can be followed across time.
