@@ -3,7 +3,7 @@ A GIS visual biography of red-tailed hawk 65994-3, using Movebank telemetry and 
 # The Life of 65994-3
 
 ### A Visual Biography of a Red-Tailed Hawk
-![Red-tailed hawk](images/redtailedhawk.jpeg)
+![Red-tailed hawk](redtailedhawk.jpeg)
 *Representative photograph of a red-tailed hawk (Buteo jamaicensis). This photograph does not depict 65994-3.*
 
 This project reconstructs the recorded life history of **65994-3**, a female red-tailed hawk (*Buteo jamaicensis*) tracked by GPS telemetry from 2008 to 2017 as part of Dr. Peter Bloom and colleagues' long-term research on red-tailed hawks in western North America.
